@@ -16,13 +16,13 @@ from py_files.py_4 import print4
 
 # Defining default Airflow Arguments
 default_args = {
-    'owner': 'luke',
+    'owner': 'arricor',
     'depends_on_past': True, # Change this to false, if you don't want your dag to depend on the past dag run
     'start_date': datetime(2020, 5, 11),
-    'email': ['luke@luke.com'], # Please update your email address here
+    'email': ['you@example.com'], # Please update your email address here
     'email_on_failure': True,
     'email_on_retry': True,
-    'retries': 3,
+    'retries': 0,
     'retry_delay': timedelta(minutes=2),
     'provide_context': True
 }

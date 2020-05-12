@@ -3,7 +3,6 @@
 ## Deploy to Airflow Cluster
 
 - The file under ``dags`` folder in this repo should be placed on the ``dags`` folder where your Airflow is hosted
-- The py_files folder needs to be placed on the root directory called py_files with all the necessary python files in them.
 
 ### Additional information on the DAG
 
