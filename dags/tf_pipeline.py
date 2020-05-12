@@ -9,7 +9,7 @@ from py_files.py_3 import print3
 from py_files.py_4 import print4
 
 
-# Examples of variables that you can define and use on Airflow
+# Examples of variables that you can defined on WebUI and used here.
 
 # CONNECTION_ID = Variable.get("connection")
 # GCS_BUCKET_ID = 'airflow-pipeline-assets'
